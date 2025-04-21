@@ -1,0 +1,10 @@
+.img {
+    width: 342px;
+    height: 230px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: url('https://cdn-icons-png.flaticon.com/32/622/622669.png') 16 16, auto;
+}
+.img:hover {
+    transform: scale(1.2);
+}

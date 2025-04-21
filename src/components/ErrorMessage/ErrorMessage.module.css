@@ -1,0 +1,17 @@
+.container {
+    width: 720px;
+    margin: 60px auto;
+}
+
+.text {
+    font-size: 30px;
+    color: rgb(148, 202, 148);
+    -webkit-text-stroke: 1px rgb(5, 26, 3);
+}
+
+.span {
+    color: #e8f809;
+    font-weight: 700;
+    font-size: 36px;
+    -webkit-text-stroke: 2px rgb(5, 26, 3);
+}

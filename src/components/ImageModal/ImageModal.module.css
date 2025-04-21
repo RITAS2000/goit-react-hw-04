@@ -1,0 +1,119 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsla(140, 32%, 29%, 0.800);
+    z-index: 9998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+.modalContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 900px;
+    padding: 60px;
+    background: rgb(148, 202, 148);
+    border-radius: 8px;
+    outline: none; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    
+}
+
+.imgContainer {
+    background: #e0e0e0;;
+    border-radius: 16px;
+    overflow: auto;
+
+    height: 704px;
+    margin: 0 auto;
+    border: 2px solid #124122;
+    
+   
+}
+
+.img { 
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.imgContainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+.imgContainer::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 8px;
+    margin: 4px 0;
+}
+
+.imgContainer::-webkit-scrollbar-thumb {
+    background: hsla(140, 32%, 29%, 0.800);;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #124122;
+    transition: transform 0.3s ease;
+}
+.icon:hover,
+.icon:focus {
+ transform: scale(1.1);
+}
+
+.textContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+
+}
+.iconHeart {
+    fill: red;
+    margin-right: 10px;
+    vertical-align: bottom;
+    
+}
+
+.likesContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text {
+    font-size: 18px;
+}
+.spanText {
+    font-weight: 700;
+    color: #124122;;
+}

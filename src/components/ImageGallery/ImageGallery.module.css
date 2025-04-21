@@ -1,0 +1,15 @@
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1440px;
+    margin: 40px auto 60px;
+}
+.comtainerItem {
+    width: 342px;
+    height: 230px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px solid #124122;
+}
